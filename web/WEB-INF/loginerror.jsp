@@ -12,7 +12,7 @@
         <title>Login</title>
     </head>
     <body>
-        <p>Se ha producido un error. 
+        <p>Se ha producido un error de login. 
             Por favor, escribe nombre y contraseña para acceder a la aplicación:</p>
         <form action="j_security_check" method="POST">
             <table border="0">
