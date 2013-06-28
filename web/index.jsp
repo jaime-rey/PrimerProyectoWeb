@@ -50,5 +50,11 @@
             </table>
 
         </form>
+        <form action="admin/admin.jsp" method="POST">
+            <input type="submit" value="Administrador" />
+        </form>
+        <form action="admin/probando.jsp" method="POST">
+            <input type="submit" value="Probar" />
+        </form>
     </body>
 </html>
