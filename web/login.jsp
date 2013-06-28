@@ -13,24 +13,6 @@
     </head>
     <body>
         <p>Por favor, escribe nombre y contraseña para acceder a la aplicación:</p>
-        <form action="j_security_check" method="POST">
-            <table border="0">
-                <tbody>
-                    <tr>
-                        <td align="rigth">Nombre de usuario:&nbsp;</td>
-                        <td><input type="text" name="j_username" value="" /></td>
-                    </tr>
-                    <tr>
-                        <td align="rigth">Contraseña:&nbsp;</td>
-                        <td><input type="password" name="j_password" value="" /></td>
-                    </tr>
-                    <tr>
-                        <td><input type="reset" value="Limpiar" /></td>
-                        <td><input type="submit" value="Login" name="login" /></td>
-                    </tr>
-                </tbody>
-            </table>
-
-        </form>
+        <%@include file="WEB-INF/jspf/formulariologin.jspf" %>
     </body>
 </html>

@@ -18,8 +18,7 @@
             <%--cuidado a la hora de nombrar en el Controlador y en la Interfaz
             igualmente al modelo?
             --%>            
-            <jsp:getProperty name="datosEncuesta" property="nombreCompleto" />
-            nos has indicado que estás familiarizado con los siguientes lenguajes de programación:
+            <jsp:getProperty name="datosEncuesta" property="nombreCompleto" />, nos has indicado que estás familiarizado con los siguientes lenguajes de programación:
             <jsp:useBean id="datosEncuesta" scope="request"
                          class="com.videotutoriales.primera.modelo.DatosEncuesta" />            
         </p>
